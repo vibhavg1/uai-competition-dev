@@ -3,7 +3,6 @@ layout: home
 permalink: /
 ---
 
-# Announcements
 * Benchmark networks and solutions are available here.
 * Solver requirements and sample problems are available here.
 * Register your solver here.
