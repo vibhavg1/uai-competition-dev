@@ -10,6 +10,6 @@ The evidence file consists of a single line. The line will begin with the number
 
 If, for our example Markov network given [here](uaiformat.html), Y has been observed as having its first value and Z with its second value, the file _example.uai.evid_ would contain the following:
 
-```code
+```
 2 1 0 2 1
 ```
