@@ -9,13 +9,13 @@ docs:
   - title: "File Formats"
     children:
     - title: "Model Format"
-      url: /model-format
+      url: /file-formats/model-format
     - title: "Evidence Format"
-      url: /evidence-format
+      url: /file-formats/evidence-format
     - title: "Query Format"
-      url: /query-format
+      url: /file-formats/query-format
     - title: "Result Format"
-      url: /result-format
+      url: /file-formats/result-format
 
   - title: "Solvers"
     children: 
