@@ -1,0 +1,1 @@
+Sitemap: https:junkyul.github.io/test-page2/sitemap.xml

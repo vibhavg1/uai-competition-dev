@@ -1,0 +1,505 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>  UAI 2022 Competition</title>
+<meta name="description" content="website for UAI 2022 probabilistic inference challenge">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="UAI 2022 Competition">
+<meta property="og:title" content="UAI 2022 Competition">
+<meta property="og:url" content="https:junkyul.github.io/test-page2/model-format/">
+
+
+  <meta property="og:description" content="website for UAI 2022 probabilistic inference challenge">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https:junkyul.github.io/test-page2/model-format/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "uai-competition",
+      "url": "https:junkyul.github.io/test-page2/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/test-page2/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/test-page2/">
+          UAI 2022 Competition
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/test-page2/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/test-page2/information" title="Introduction and Announcements">Information</a>
+            </li><li class="masthead__menu-item">
+              <a href="/test-page2/model-format" title="UAI File Formats">File Formats</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html" title="Submitting Solvers">Submission</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html" title="Leader board and the Winners">Results</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Home</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/test-page2/">Announcements</a></li>
+          
+            <li><a href="/test-page2/information">Information</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">File Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/test-page2/model-format">Model Format</a></li>
+          
+            <li><a href="/test-page2/evidence-format">Evidence Format</a></li>
+          
+            <li><a href="/test-page2/query-format">Query Format</a></li>
+          
+            <li><a href="/test-page2/result-format">Result Format</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Solvers</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/register.html">Registration</a></li>
+          
+            <li><a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/requirements.html">Requirements</a></li>
+          
+            <li><a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html">Submit Solver</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Results</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="">Summary</a></li>
+          
+            <li><a href="https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html">Leaders</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https:junkyul.github.io/test-page2/model-format/" class="u-url" itemprop="url">
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="model-format">Model Format</h2>
+<blockquote>
+  <p>We use the simple text file format specified below to describe problem instances (Markov networks). 
+The format is a generalization of the Ergo file format initially developed by Noetic systems Ergo software.
+We use the <strong>.uai</strong> suffix for the challenge benchmark network files.</p>
+</blockquote>
+
+<h3 id="structure">Structure</h3>
+<p>A file in the UAI format consists of the following two parts, in that order:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Preamble&gt;
+&lt;Function tables&gt;
+</code></pre></div></div>
+<p>The contents of each section (denoted &lt;…&gt; above) are described in the following:</p>
+
+<h3 id="preamble">Preamble</h3>
+<p>Our description of the format will follow a simple Markov network with three variables and two functions. A sample preamble for such a network is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MARKOV
+3
+2 2 3
+2
+2 0 1
+2 1 2
+</code></pre></div></div>
+
+<p>The preamble starts with one line denoting the type of network. Generally, this can be either BAYES (if the network is a Bayesian network) or MARKOV (in case of a Markov network). However, note that this year all networks will be given in a Markov networks (i.e. Bayesian networks will be moralized).</p>
+
+<p>The second line contains the number of variables. The next line specifies the cardinalities of each variable, one at a time, separated by a whitespace (note that this implies an order on the variables which will be used throughout the file). The fourth line contains only one integer, denoting the number of cliques in the problem. Then, one clique per line, the scope of each clique is given as follows: The first integer in each line specifies the number of variables in the clique, followed by the actual indexes of the variables. The order of this list is not restricted. Note that the ordering of variables within a factor will follow the order provided here.</p>
+
+<p>Referring to the example above, the first line denotes the Markov network, the second line tells us the problem consists of three variables, let’s refer to them as X, Y, and Z. Their cardinalities are 2, 2, and 3 respectively (from the third line). Line four specifies that there are 2 cliques. The first clique is X,Y, while the second clique is Y,Z. Note that variables are indexed starting with 0.</p>
+
+<h3 id="function-tables">Function tables</h3>
+<p>In this section each factor is specified by giving its full table (i.e, specifying value for each assignment). The order of the factor is identical to the one in which they were introduced in the preamble, the first variable have the role of the ‘most significant’ digit. For each factor table, first the number of entries is given (this should be equal to the product of the domain sizes of the variables in the scope). Then, one by one, separated by whitespace, the values for each assignment to the variables in the function’s scope are enumerated. Tuples are implicitly assumed in ascending order, with the last variable in the scope as the ‘least significant’. To illustrate, we continue with our Markov network example from above, let’s assume the following conditional probability tables:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">X</th>
+      <th style="text-align: center">P(X)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">0.436</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">0.456</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">X</th>
+      <th style="text-align: left">Y</th>
+      <th style="text-align: center">P(Y,X)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">0.128</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">0.872</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">0.920</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">0.080</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Y</th>
+      <th style="text-align: left">Z</th>
+      <th style="text-align: center">P(Z,Y)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">0.210</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">0.333</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: center">0.457</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">0.811</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">0.000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: center">0.189</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
+ 0.436 0.564
+
+4
+ 0.128 0.872
+ 0.920 0.080
+
+6
+ 0.210 0.333 0.457
+ 0.811 0.000 0.189
+</code></pre></div></div>
+<p>(Note that line breaks and empty lines are effectively just a whitespace, exactly like plain spaces “ ”. They are used here to improve readability.)</p>
+
+<h3 id="summary">Summary</h3>
+<p>In summary, a problem file consists of 2 sections: the preamble and the full the function tables, the names and the labels. For our Markov network example above, the full file will look like:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MARKOV
+3
+2 2 3
+3
+1 0
+2 0 1
+2 1 2
+
+2
+ 0.436 0.564
+
+4
+ 0.128 0.872
+ 0.920 0.080
+
+6
+ 0.210 0.333 0.457
+ 0.811 0.000 0.189
+</code></pre></div></div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      <!---->
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    <!--
+      <li><strong>Follow:</strong></li>
+    
+    -->
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 uai-competition. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/test-page2/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/test-page2/assets/js/lunr/lunr.min.js"></script>
+<script src="/test-page2/assets/js/lunr/lunr-store.js"></script>
+<script src="/test-page2/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
