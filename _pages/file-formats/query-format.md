@@ -1,3 +1,8 @@
+---
+title: ""
+permalink: /file-formats/query-format/
+---
+
 Query File Format (only applies to Marginal MAP task)
 -----------------------------------------------------
 

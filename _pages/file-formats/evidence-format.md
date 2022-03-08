@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /evidence-format/
+permalink: /file-formats/evidence-format/
 ---
 
 ## Evidence Format

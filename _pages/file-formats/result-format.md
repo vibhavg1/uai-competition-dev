@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /result-format/
+permalink: /file-formats/result-format/
 ---
 
 Result File Format
