@@ -1,3 +1,8 @@
+---
+title: ""
+permalink: /result-format/
+---
+
 Result File Format
 ------------------
 
