@@ -2,9 +2,7 @@
 title: ""
 permalink: /information/
 ---
-
 ## Introduction
-
 > We are pleased to announce an upcoming evaluation of probabilistic approximate inference algorithms, as part of the UAI
 2022 conference. 
 All researchers working on inference in graphical models and statistical relational models are encouraged to participate.
