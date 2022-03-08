@@ -3,10 +3,13 @@ layout: home
 permalink: /
 ---
 
-# Announcements
-* Benchmark networks and solutions are available here.
-* Solver requirements and sample problems are available here.
-* Register your solver here.
-* Submit your registered solver here.
-* The competition will run from June 15 to July 15. Winners will be announced on July 19.
-* Each team can only submit no more than 2 solvers in each category. Since we have four categories, each team can potentially submit 8 solvers
+# Welcome to UAI 2022 Competitions!
+![](./assets/images/Catalina_Avalon1.jpg)
+
+Probabilistic inference in graphical models is a key task in many applications, from machine vision to computational biology. 
+Since the problem is generally computationally intractable many approximations have been suggested over the years.
+The goal of this challenge is to evaluate inference algorithms on difficult large scale problems.
+Algorithms for MAP, marginals, and partition function approximation will be evaluated. 
+An online leaderboard will show the relative rankings of the algorithms.
+
+

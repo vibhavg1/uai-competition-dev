@@ -3,21 +3,19 @@ docs:
     children:
     - title: "Announcements"
       url: /
-#url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/index.html
     - title: "Information"
       url: /information
-#url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/information.html
 
   - title: "File Formats"
     children:
     - title: "Model Format"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/modelformat.html
+      url: /model-format
     - title: "Evidence Format"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/evidformat.html
+      url: /evidence-format
     - title: "Query Format"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/queryformat.html
+      url: /query-format
     - title: "Result Format"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/resformat.html
+      url: /result-format
 
   - title: "Solvers"
     children: 
@@ -37,18 +35,17 @@ docs:
      
 main:
   - title: "Home"
-    url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/index.html
+    url: /
   - title: "Information"
     url: /information
-#url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/information.html
-    description: "introduction and announcements"
+    description: "Introduction and Announcements"
   - title: "File Formats"
-    url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/modelformat.html
-    description: "problem file formats"
+    url: /model-format
+    description: "UAI File Formats"
   - title: "Submission"
     url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
-    description: "requirements, registration, and submssions"
+    description: "Submitting Solvers"
   - title: "Results"
     url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
-    description: "results board and winners"
+    description: "Leader board and the Winners"
 
