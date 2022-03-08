@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /file-formats/evidence-format/
+permalink: /file-formats/model-format/
 ---
 
 ## Model Format
