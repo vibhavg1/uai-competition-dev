@@ -1,3 +1,27 @@
+     
+main:
+  - title: "Home"
+    url: /
+    description: "Welcome Page"
+  - title: "Introduction"
+    url: /information/introduction
+    description: "Introduction to the UAI Competition"
+  - title: "Announcements"
+    url: /information/announcements
+    description: "Announcements"
+  - title: "Important Dates"
+    url: /information/important-dates
+    description: "Important Dates"
+  # - title: "File Formats"
+  #   url: /file-formats
+  #   description: "UAI File Formats"
+  # - title: "Competition Entry"
+  #   url: /competition-entry
+  #   description: "Instructions for Submitting Solvers"
+  # - title: "Results"
+  #   url: /results
+  #   description: "Leader Board and Winners"
+
 docs:
   # - title: "Home"
   #   url: /
@@ -25,7 +49,7 @@ docs:
     url: /competition-entry
     children: 
     - title: "Requirements"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/requirements.html
+      url: /competition-entry/requirements
     - title: "Registration"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/register.html
     - title: "Submit Solver"
@@ -38,27 +62,4 @@ docs:
       url: results/summary
     - title: "Leader Board"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
-     
-main:
-  - title: "Home"
-    url: /
-    description: "Welcome Page"
-  - title: "Introduction"
-    url: /information/introduction
-    description: "Introduction to the UAI Competition"
-  - title: "Announcements"
-    url: /information/announcements
-    description: "Announcements"
-  - title: "Important Dates"
-    url: /information/important-dates
-    description: "Important Dates"
-  # - title: "File Formats"
-  #   url: /file-formats
-  #   description: "UAI File Formats"
-  # - title: "Competition Entry"
-  #   url: /competition-entry
-  #   description: "Instructions for Submitting Solvers"
-  # - title: "Results"
-  #   url: /results
-  #   description: "Leader Board and Winners"
 
