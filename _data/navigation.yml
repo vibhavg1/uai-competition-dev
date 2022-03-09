@@ -50,10 +50,10 @@ docs:
     children: 
     - title: "Requirements"
       url: /competition-entry/requirements
-    - title: "Registration"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/register.html
-    - title: "Submit Solver"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
+    - title: "Solver Submission"
+      url: /competition-entry/solver-submission
+    # - title: "Submit Solver"
+    #   url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
 
   - title: "Results"
     url: /results
