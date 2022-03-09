@@ -1,12 +1,14 @@
 docs:
   - title: "Home"
+    url: /
     children:
     - title: "Announcements"
       url: /
-    - title: "Information"
-      url: /information
+    - title: "Introduction"
+      url: /introduction
 
   - title: "File Formats"
+    url: /file-formats
     children:
     - title: "Model Format"
       url: /file-formats/model-format
@@ -17,35 +19,37 @@ docs:
     - title: "Result Format"
       url: /file-formats/result-format
 
-  - title: "Solvers"
+  - title: "Solver Submission"
+    url: /solver-submission
     children: 
-    - title: "Registration"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/register.html
     - title: "Requirements"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/requirements.html
+    - title: "Registration"
+      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/register.html
     - title: "Submit Solver"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
 
   - title: "Results"
+    url: /results
     children:
     - title: "Summary"
-      url: 
+      url: results/summary
     - title: "Leaders"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
      
 main:
   - title: "Home"
     url: /
-  - title: "Information"
-    url: /information
-    description: "Introduction and Announcements"
+  - title: "Introduction"
+    url: /introduction
+    description: "Introduction to the UAI Competition"
   - title: "File Formats"
-    url: /file-formats/model-format
+    url: /file-formats
     description: "UAI File Formats"
-  - title: "Submission"
-    url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
-    description: "Submitting Solvers"
+  - title: "Solver Submission"
+    url: /solver-submission
+    description: "Instructions for Submitting Solvers"
   - title: "Results"
     url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
-    description: "Leader board and the Winners"
+    description: "Leader Board and Winners"
 
