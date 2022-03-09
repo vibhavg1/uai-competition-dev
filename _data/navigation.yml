@@ -40,7 +40,7 @@ main:
     url: /information
     description: "Introduction and Announcements"
   - title: "File Formats"
-    url: /model-format
+    url: /file-formats/model-format
     description: "UAI File Formats"
   - title: "Submission"
     url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/submit.html
