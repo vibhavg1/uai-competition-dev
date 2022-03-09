@@ -3,9 +3,11 @@ docs:
     url: /
     children:
     - title: "Announcements"
-      url: /
-    - title: "Introduction"
-      url: /introduction
+      url: /information/introduction
+    - title: "Announcements"
+      url: /information/announcements
+    - title: "Important Dates"
+      url: /information/important-dates
 
   - title: "File Formats"
     url: /file-formats
@@ -40,9 +42,16 @@ docs:
 main:
   - title: "Home"
     url: /
+    description: "Welcome Page"
   - title: "Introduction"
-    url: /introduction
+    url: /information/introduction
     description: "Introduction to the UAI Competition"
+  - title: "Announcements"
+    url: /information/announcements
+    description: "Announcements"
+  - title: "Important Dates"
+    url: /information/important-dates
+    description: "Important Dates"
   - title: "File Formats"
     url: /file-formats
     description: "UAI File Formats"

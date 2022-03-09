@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /introduction/
+permalink: /information/introduction/
 ---
 ## Introduction
 > We are pleased to announce an upcoming evaluation of probabilistic approximate inference algorithms, as part of the UAI
