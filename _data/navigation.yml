@@ -40,9 +40,6 @@ docs:
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
      
 main:
-  - title: "Home"
-    url: /
-    description: "Welcome Page"
   - title: "Introduction"
     url: /information/introduction
     description: "Introduction to the UAI Competition"
