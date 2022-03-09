@@ -17,18 +17,18 @@ computing the most likely assignment to all variables given evidence
 
 
 ## UAI File Format Descriptions
-* [model formats](test-page1/file-formats/model-format)
-* [evidence formats](test-page1/file-formats/evidence-format)
-* [query formats](test-page1/file-formats/query-format)
-* [result formats](test-page1/file-formats/result-format)
+* [model formats](../../../_pages/root/file-formats/model-format.md)
+* [evidence formats](https://uaicompetition.github.io/test-page1/file-formats/evidence-format/)
+* [query formats](https://uaicompetition.github.io/test-page1/file-formats/query-format/)
+* [result formats](https://uaicompetition.github.io/test-page1/file-formats/result-format/)
 
 
 
 ##### Sample Problems
-* [1.uai](../assets/problems/1.uai), [1.uai.evid](../assets/problems/1.uai.evid)
-* [2.uai](../assets/problems/2.uai), [2.uai.evid](../assets/problems/2.uai.evid)
-* [3.uai](../assets/problems/3.uai), [3.uai.evid](../assets/problems/3.uai.evid)
-* [4.uai](../assets/problems/4.uai), [4.uai.evid](../assets/problems/4.uai.evid)
+* [1.uai](../../../assets/problems/1.uai), [1.uai.evid](../../../assets/problems/1.uai.evid)
+* [2.uai](../../../assets/problems/2.uai), [2.uai.evid](../../../assets/problems/2.uai.evid)
+* [3.uai](../../../assets/problems/3.uai), [3.uai.evid](../../../assets/problems/3.uai.evid)
+* [4.uai](../../../assets/problems/4.uai), [4.uai.evid](../../../assets/problems/4.uai.evid)
 * More problems from previous [UAI competition benchmarks](https://github.com/dechterlab/uai-competitions)
 
 
