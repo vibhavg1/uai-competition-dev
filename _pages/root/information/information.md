@@ -17,10 +17,10 @@ computing the most likely assignment to all variables given evidence
 
 
 ## UAI File Format Descriptions
-* [model formats](/model-formats/model-format)
-* [evidence formats](/model-formats/evidence-format)
-* [query formats](/model-formats/query-format)
-* [result formats](/model-formats/result-format)
+* [model formats](test-page1/file-formats/model-format)
+* [evidence formats](test-page1/file-formats/evidence-format)
+* [query formats](test-page1/file-formats/query-format)
+* [result formats](test-page1/file-formats/result-format)
 
 
 
