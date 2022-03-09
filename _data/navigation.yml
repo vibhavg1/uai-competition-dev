@@ -1,13 +1,13 @@
 docs:
-  - title: "Home"
-    url: /
-    children:
-    - title: "Introduction"
-      url: /information/introduction
-    - title: "Announcements"
-      url: /information/announcements
-    - title: "Important Dates"
-      url: /information/important-dates
+  # - title: "Home"
+  #   url: /
+  #   children:
+  #   - title: "Introduction"
+  #     url: /information/introduction
+  #   - title: "Announcements"
+  #     url: /information/announcements
+  #   - title: "Important Dates"
+  #     url: /information/important-dates
 
   - title: "File Formats"
     url: /file-formats
@@ -49,13 +49,13 @@ main:
   - title: "Important Dates"
     url: /information/important-dates
     description: "Important Dates"
-  - title: "File Formats"
-    url: /file-formats
-    description: "UAI File Formats"
-  - title: "Competition Entry"
-    url: /competition-entry
-    description: "Instructions for Submitting Solvers"
-  - title: "Results"
-    url: /results
-    description: "Leader Board and Winners"
+  # - title: "File Formats"
+  #   url: /file-formats
+  #   description: "UAI File Formats"
+  # - title: "Competition Entry"
+  #   url: /competition-entry
+  #   description: "Instructions for Submitting Solvers"
+  # - title: "Results"
+  #   url: /results
+  #   description: "Leader Board and Winners"
 
