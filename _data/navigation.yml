@@ -2,7 +2,7 @@ docs:
   - title: "Home"
     url: /
     children:
-    - title: "Announcements"
+    - title: "Introduction"
       url: /information/introduction
     - title: "Announcements"
       url: /information/announcements
