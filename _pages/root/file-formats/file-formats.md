@@ -2,11 +2,23 @@
 title: ""
 permalink: /file-formats/
 ---
-## UAI File Format Descriptions
-* [model formats](../file-formats/model-format.md)
-* [evidence formats](../file-formats/evidence-format.md)
-* [query formats](../file-formats/query-format.md)
-* [result formats](../file-formats/result-format.md)
+
+## Competition File Formats
+Here we outline file formats used for the competition, known as the UAI Format.  There
+are four aspects to the UAI Format:
+* a format describing the problem's model
+* a format describing what evidence is to be conditioned on
+* a format denoting the variables for which we wish to query
+* a file outlining final results
+The description of each (respectively) can be found below.  At the end of the page,
+you will also find sample models and evidence for each to be conditioned on.
+
+
+#### UAI File Format Descriptions
+* [model formats](./model-format.md)
+* [evidence formats](./evidence-format.md)
+* [query formats](./query-format.md)
+* [result formats](./result-format.md)
 
 ##### Sample Problems
 * [1.uai](../../../assets/problems/1.uai), [1.uai.evid](../../../assets/problems/1.uai.evid)

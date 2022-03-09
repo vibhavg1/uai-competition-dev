@@ -19,8 +19,8 @@ docs:
     - title: "Result Format"
       url: /file-formats/result-format
 
-  - title: "Solver Submission"
-    url: /solver-submission
+  - title: "Competition Entry"
+    url: /competition-entry
     children: 
     - title: "Requirements"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/requirements.html
@@ -34,7 +34,7 @@ docs:
     children:
     - title: "Summary"
       url: results/summary
-    - title: "Leaders"
+    - title: "Leader Board"
       url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
      
 main:
@@ -46,10 +46,10 @@ main:
   - title: "File Formats"
     url: /file-formats
     description: "UAI File Formats"
-  - title: "Solver Submission"
-    url: /solver-submission
+  - title: "Competition Entry"
+    url: /competition-entry
     description: "Instructions for Submitting Solvers"
   - title: "Results"
-    url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
+    url: /results
     description: "Leader Board and Winners"
 
