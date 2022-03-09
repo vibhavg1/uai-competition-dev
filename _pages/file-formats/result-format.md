@@ -3,9 +3,7 @@ title: ""
 permalink: /file-formats/result-format/
 ---
 
-Result File Format
-------------------
-
+## Result File Format
 The first line must contain only the task solved: PR|MPE|MAR|MMAP. The rest of the file will contain the solution for the task. Solvers can write more then one solution by writing -BEGIN- at the head of the new solution. We will only consider the last solution in the file. In the example below the task we choose is PR. We have two solutions. The format of the &lt;SOLUTION&gt; part will be described below.
 
 ```
