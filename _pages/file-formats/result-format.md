@@ -8,7 +8,7 @@ Result File Format
 
 The first line must contain only the task solved: PR|MPE|MAR|MMAP. The rest of the file will contain the solution for the task. Solvers can write more then one solution by writing -BEGIN- at the head of the new solution. We will only consider the last solution in the file. In the example below the task we choose is PR. We have two solutions. The format of the &lt;SOLUTION&gt; part will be described below.
 
-```code
+```
 PR
 <SOLUTION>
 -BEGIN-
@@ -19,7 +19,7 @@ The solution format are as follows depending on the task
 
 * **Partition function, PR**: Line with the value of the log10 of the partition function. For example, an approximation log10 Pr(e) = -0.2008 which is known to be an upper bound may have a solution line:
     
-```code
+```
 -0.2008
 ```
 
@@ -32,7 +32,7 @@ The solution format are as follows depending on the task
 
 For example, an input model with 3 binary variables may have a solution line:
 
-```code
+```
 3 0 1 0
 ```
 
@@ -45,7 +45,7 @@ For example, an input model with 3 binary variables may have a solution line:
 
 For example, a model with 3 variables, with cardinalities of 2, 2, 3 respectively. The solution might look like this:
 
-```code
+```
 3 2 0.1 0.9 2 0.3 0.7 3 0.2 0.2 0.6
 ```
 
@@ -58,7 +58,7 @@ For example, a model with 3 variables, with cardinalities of 2, 2, 3 respectivel
 
 For example, if the solution is an assignment of 0, 1 and 0 to three query variables indexed by 2 3 and 4 respectively, the solution will look as follows
 
-```code
+```
 3 2 0 3 1 4 0
 ```
 

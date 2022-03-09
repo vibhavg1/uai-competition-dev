@@ -12,6 +12,6 @@ The query file consists of a single line. The line will begin with the number of
 
 If, for our example Markov network given [here](uaiformat.html), we want to use Y as the query variable the file _example.uai.query_ would contain the following:
 
-```code
+```
 1 1
-```code
+```
