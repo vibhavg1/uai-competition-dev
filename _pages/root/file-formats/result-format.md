@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "File Formats"
 permalink: /file-formats/result-format/
 ---
 

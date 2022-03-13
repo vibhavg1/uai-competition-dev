@@ -7,7 +7,8 @@ main:
     url: /information/introduction
     description: "Introduction to the UAI Competition"
   - title: "Announcements"
-    url: /information/announcements
+    url: /announcement-archive
+  #  url: /information/announcements
     description: "Announcements"
   - title: "Important Dates"
     url: /information/important-dates
@@ -59,7 +60,8 @@ docs:
     url: /results
     children:
     - title: "Summary"
-      url: results/summary
+      url: summary
     - title: "Leader Board"
-      url: https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
+      url: leaderboard
+#https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
 

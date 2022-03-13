@@ -1,10 +1,13 @@
 ---
-title: ""
 permalink: /
+title: "Welcome to UAI 2022 Competitions!"
+layouts_gallery:
+    - url: /assets/images/Catalina_Avalon1.jpg
+      image_path: /assets/images/Catalina_Avalon1.jpg
 ---
 
-## Welcome to UAI 2022 Competitions!
-![](./assets/images/Catalina_Avalon1.jpg)
+{% include gallery id="layouts_gallery" caption="" %}
+
 
 > Probabilistic inference in graphical models is a key task in many applications, from machine vision to computational biology. 
 Since the problem is generally computationally intractable many approximations have been suggested over the years.

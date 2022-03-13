@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Competition Entry"
 permalink: /competition-entry/requirements/
 ---
 
