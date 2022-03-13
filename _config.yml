@@ -227,7 +227,7 @@ defaults:
       path: ""
       types: pages
     values:
-      permalink: /:basename/
+      permalink: /:title/
       layout: single
       author_profile: false
       sidebar:
