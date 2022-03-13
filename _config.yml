@@ -227,6 +227,7 @@ defaults:
       path: ""
       types: pages
     values:
+      permalink: /:basename/
       layout: single
       author_profile: false
       sidebar:
@@ -236,6 +237,7 @@ defaults:
       path: ""
       type: posts
     values:
+      permalink: /:title/
       layout: single
       author_profile: false
       show_data: true
@@ -247,6 +249,7 @@ defaults:
       path: ""
       types: summary
     values:
+      permalink: /:title/
       layout: single
       author_profile: false
       comments: true
@@ -257,6 +260,7 @@ defaults:
       path: ""
       types: leaderboard
     values:
+      permalink: /:title/
       layout: single
       author_profile: false
       comments: true
