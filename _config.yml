@@ -23,7 +23,7 @@ name                     : "uai-competition"
 description              : "website for UAI 2022 probabilistic inference challenge"
 port                     : 4000
 host                     : "0.0.0.0"
-url                      : "https:uaicompetition.github.io" 	# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://uaicompetition.github.io" 	# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/test-page1" 		# the subpath of your site, e.g. "/blog"
 repository               : "uaicompetition/test-page1" 	# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/Catalina_Avalon1.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
