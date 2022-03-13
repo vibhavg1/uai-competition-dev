@@ -47,3 +47,10 @@ summary and leader boards are collections
 * _summary/*.md: add files for summary
 * _leaderboards/*.md: add files for leader boards
 
+### Links of MD files
+a permalink is link to other md files, and it is set to title of md file from [this issue](https://github.com/mmistakes/minimal-mistakes/issues/1475)
+```
+/_posts/2018-01-15-your-post.md  ~>  /your-post/index.html
+about.md  ~>  /about/index.html
+```
+
