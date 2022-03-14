@@ -31,10 +31,10 @@ command for deployment
 #### contents using pages (single mark down file)
 * home file showing welcome message: index.md
 * file formats: _pages/roots/file-formats/*.md
-* compeition-entry: _pages/roots/competition-entry/*.md
+* competition-entry: _pages/roots/competition-entry/*.md
 * introduction: _pages/roots/information/introduction.md
-* imporatant dats: _pages/roots/information/important-dates.md
-* 
+* imporatant dates: _pages/roots/information/important-dates.md
+
 #### contents using posts (like blog posts)
 announcements are posts.
 copy one of the files, modify the data and title of the file, and edit contents.
@@ -48,4 +48,4 @@ summary and leader boards are collections
 
 ### Links of MD files
 see https://jekyllrb.com/docs/permalinks/
-
+using `permalink: /:title/` in config casued several errors.
