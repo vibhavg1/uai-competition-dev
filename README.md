@@ -30,10 +30,10 @@ command for deployment
 
 #### contents using pages (single mark down file)
 * home file showing welcome message: index.md
-* file formats: _pages/roots/file-formats/*.md
-* competition-entry: _pages/roots/competition-entry/*.md
-* introduction: _pages/roots/information/introduction.md
-* imporatant dates: _pages/roots/information/important-dates.md
+* file formats: _pages/root/file-formats/*.md
+* competition-entry: _pages/root/competition-entry/*.md
+* introduction: _pages/root/information/introduction.md
+* imporatant dates: _pages/root/information/important-dates.md
 
 #### contents using posts (like blog posts)
 announcements are posts.
