@@ -32,6 +32,7 @@ command for deployment
 * home file showing welcome message: index.md
 * file formats: _pages/root/file-formats/*.md
 * competition-entry: _pages/root/competition-entry/*.md
+  * the Solver Submission subpage reroutes to a Google Form house in the Google Drive of the Google Account **uaicompetition** (it is currently set up to accept solver \[re\]submissions and thus requires a Google account to access)
 * introduction: _pages/root/information/introduction.md
 * imporatant dates: _pages/root/information/important-dates.md
 
