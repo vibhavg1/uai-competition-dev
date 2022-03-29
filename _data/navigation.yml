@@ -49,6 +49,8 @@ docs:
   - title: "Competition Entry"
     url: /competition-entry
     children: 
+    - title: "Tasks"
+      url: /competition-entry/tasks
     - title: "Requirements"
       url: /competition-entry/requirements
     - title: "Solver Submission"
