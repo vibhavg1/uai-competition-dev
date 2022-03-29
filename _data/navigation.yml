@@ -61,9 +61,9 @@ docs:
   - title: "Results"
     url: /results
     children:
-    - title: "Summary"
-      url: summary
     - title: "Leader Board"
       url: leaderboard
+    - title: "Summary"
+      url: summary
 #https://personal.utdallas.edu/~vibhav.gogate/uai14-competition/leaders.html
 
