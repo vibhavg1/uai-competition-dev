@@ -2,8 +2,8 @@
 permalink: /
 title: "Welcome to UAI 2022 Competitions!"
 layouts_gallery:
-    - url: /assets/images/Catalina_Avalon1.jpg
-      image_path: /assets/images/Catalina_Avalon1.jpg
+    - url: /assets/images/eindhoven-conference-centre.png
+      image_path: /assets/images/eindhoven-conference-centre.png
 ---
 
 {% include gallery id="layouts_gallery" caption="" %}
