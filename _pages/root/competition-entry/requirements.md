@@ -20,7 +20,7 @@ The solver's exit status will be recorded, treating 0 as normal and other number
 
 A solver will receive as input a filename of the model, a filename for the evidence, the query filename, and the task to solve ( PR| MPE| MAR| MMAP). The query filename is only relevant to the marginal MAP task. Solvers working on the other three tasks should ignore this file.
 ```
-./solver <input-model-file> <input-evidence-file>  <input-query-file>  <PR|MPE|MAR|MMAP>
+./solver <input-model-file> <input-evidence-file>  <input-query-file>  <PR|MPE|MAR|MMAP|MLC>
 ```
 The formats are described here:
 
