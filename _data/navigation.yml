@@ -51,6 +51,8 @@ docs:
     children: 
     - title: "Tasks"
       url: /competition-entry/tasks
+    - title: "New MLC Challenge!"
+      url: /competition-entry/new-mlc-challenge
     - title: "Requirements"
       url: /competition-entry/requirements
     - title: "Solver Submission"
