@@ -15,5 +15,5 @@ permalink: /competition-entry/tasks/
 **MMAP:**
 &nbsp; computing the most likely assignment to a subset of variables that maximizes the marginals on the remaining variables
 
-**MLC:**
-&nbsp; multi-label classification of a subset of variables of given a model and observed evidence (through learning, inference, or any other method of your choice)
+**MLC:** *(new!)*
+&nbsp; multi-label classification of a subset of variables of given a model and observed evidence (through learning, inference, or any other method of your choice).  Please see the [detailed description] (./new-mlc-challenge.md) for more information.
