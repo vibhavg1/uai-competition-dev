@@ -1,5 +1,6 @@
 ---
 title: "New Multi-Label Classification Challenge!"
+usemathjax: true
 permalink: /competition-entry/new-mlc-challenge/
 ---
 
