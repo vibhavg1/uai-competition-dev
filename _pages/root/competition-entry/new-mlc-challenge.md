@@ -1,6 +1,6 @@
 ---
 title: "New Multi-Label Classification Challenge!"
-permalink: /competition-entry/tasks/
+permalink: /competition-entry/new-mlc-challenge/
 ---
 
 This year we are excited to include a new *compilation* or *multi-label classification* challenge. This
