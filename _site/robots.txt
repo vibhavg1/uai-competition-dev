@@ -1,1 +1,1 @@
-Sitemap: https:uaicompetition.github.io/test-page1/sitemap.xml
+Sitemap: https://uaicompetition.github.io/test-page1/sitemap.xml
