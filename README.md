@@ -1,5 +1,5 @@
-# test-page1
-https://uaicompetition.github.io/test-page1/
+# UCI-2022
+https://uaicompetition.github.io/uci-2022/
 
 ## TLDR
 
