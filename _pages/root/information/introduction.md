@@ -8,7 +8,7 @@ as part of the UAI 2022 conference.
 
 ## Evaluation Tasks
 - PR:  computation of the partition function
-- MAR: computation the marginals
+- MAR: computation of marginal probabilities
 - MAP: computation the most likely assignment over all variables
 - MMAP: computation the most likely assignment to a subset of variables maximizing the MAR on the remaining variables 
 - MLC: multi-label classification of a subset of variables
