@@ -7,10 +7,10 @@ as part of the UAI 2022 conference.
 <!-- All researchers working on inference in graphical models and statistical relational models are encouraged to participate.-->
 
 ## Evaluation Tasks
-- PR:  computing the partition function
-- MAR: computing the marginals
-- MAP: computing the most likely assignment
-- MMAP: computing the most likely assignment to a subset of variables followed by MAR on the remaining variables 
+- PR:  computation of the partition function
+- MAR: computation the marginals
+- MAP: computation the most likely assignment over all variables
+- MMAP: computation the most likely assignment to a subset of variables maximizing the MAR on the remaining variables 
 - MLC: multi-label classification of a subset of variables
 
 
