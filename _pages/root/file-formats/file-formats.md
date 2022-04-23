@@ -10,11 +10,13 @@ The UAI Format consists of four potential parts (each associated with a file):
 * query variables (.query)
 * query result per task (.pr, .mpe, .mar, .mpe, .mlc).
 
-The description and sample files can be found below.  
-* [model format](./model-format.md)
+A detailed description of each part can be found via the following links:  
+* [graphical model format](./model-format.md)
 * [evidence format](./evidence-format.md)
 * [query format](./query-format.md)
 * [result format](./result-format.md)
+
+Below are some samples:
 * [sample uai file](../../../assets/problems/1.uai)
 * [sample evid file](../../../assets/problems/1.uai.evid)
 * More problem files are available from the previous [UAI competition benchmarks](https://github.com/dechterlab/uai-competitions)
