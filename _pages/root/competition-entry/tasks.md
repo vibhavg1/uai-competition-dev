@@ -4,30 +4,30 @@ permalink: /competition-entry/tasks/
 ---
 <br>
 
-**PR:** 
+**PR :** 
 &nbsp; computing the partition function and probability of evidence
 * single CPU, 8 GB memory limit
 * 20 sec, 100 sec, 20 min time limits
 <br>
 
-**MAR:** 
+**MAR :** 
 &nbsp; computing the marginal probability distribution over a variable given evidence
 * single CPU, 8 GB memory limit
 * 20 sec, 100 sec, 20 min time limits
 <br>
 
-**MAP:** 
+**MAP :** 
 &nbsp; computing the most likely assignment to all variables given evidence
 * single CPU, 8 GB memory limit
 * 20 sec, 100 sec, 20 min time limits
 <br>
 
-**MMAP:**
+**MMAP :**
 &nbsp; computing the most likely assignment to a subset of variables that maximizes the marginals on the remaining variables
 * single CPU, 8 GB memory limit
 * 20 sec, 100 sec, 20 min time limits
 <br>
 
-**MLC:** *(new!)*
+**MLC** *(new!)* **:** 
 &nbsp; multi-label classification of a subset of variables of given a model and observed evidence (through learning, inference, or any other method of your choice).
 * Please see the [detailed description](./new-mlc-challenge.md) for more information.
