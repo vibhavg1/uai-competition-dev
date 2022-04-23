@@ -4,7 +4,7 @@ permalink: /file-formats/
 ---
 
 ## Competition File Formats
-We outline file the UAI Format that has four parts:
+The UAI Format consists of four potential parts (each associated with a file):
 * graphical model (.uai)
 * evidence (.evid)
 * query variables (.query)
