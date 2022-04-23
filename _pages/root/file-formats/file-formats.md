@@ -4,21 +4,18 @@ permalink: /file-formats/
 ---
 
 ## Competition File Formats
-<br>
 
 The UAI Format consists of four potential parts (each associated with a file):
   * graphical model (.uai)
   * evidence (.evid)
   * query variables (.query)
   * query result per task (.pr, .mpe, .mar, .mpe, .mlc)
-<br>
 
 A detailed description of each part can be found via the following links:  
   * [graphical model format](./model-format.md)
   * [evidence format](./evidence-format.md)
   * [query format](./query-format.md)
   * [result format](./result-format.md)
-<br>
 
 Below are some samples:
   * [sample uai file](../../../assets/problems/1.uai)
