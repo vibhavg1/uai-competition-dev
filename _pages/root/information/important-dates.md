@@ -6,17 +6,19 @@ The following is a prospective timelines.
 For the details, please contact organizers by `uaicompetition at gmail dot com`
 
 ## Tentative Schedule
-* April, 2022
+* May, 2022
   * Site open to public
   * Call for participations
-* May, 2022
-  * Site open to submission of solvers
-  * Release sample benchmark sets
+* June, 2022
+  * Release of sample benchmark sets
 * July, 2022
-  * Begin competition
+  * Solver submission opens
+  * Evaluations begin!
 * August, 2022
-  * Announce the competition results
-
+  * Mid-competition standings to be reported at UAI-2022
+* October, 2022
+  * Solver submissions close
+  * Final competition results announced!
 
 
 
