@@ -13,14 +13,10 @@ as part of the UAI 2022 conference.
 - MMAP: computation the most likely assignment to a subset of variables maximizing the MAR on the remaining variables 
 - MLC: multi-label classification of a subset of variables
 
-
 ## Organizers
-Rina Dechter (University of California Irvine) <br/>
-Alexander Ihler (University of California Irvine) <br/>
-Vibhav Gogate (University of Texax Dallas) <br/>
-Junkyu Lee (IBM Research) <br/>
-Bobak Pezeshki (University of California Irvine) <br/>
-Contact: uaicompetition@gmail.com
-
-
-
+Rina Dechter (University of California, Irvine)<br/>
+Alexander Ihler (University of California, Irvine)<br/>
+Vibhav Gogate (University of Texas, Dallas)<br/>
+Junkyu Lee (IBM Research)<br/>
+Bobak Pezeshki (University of California, Irvine)<br/>
+Contact: `uaicompetition at gmail dot com`
