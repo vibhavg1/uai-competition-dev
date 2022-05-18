@@ -14,10 +14,10 @@ The goal of this challenge is to explore your various approaches of approximatin
 **partition function**, **probability of given evidence**, **marginal probabilities**, and the **MAP** or **marginal MAP** values evaluating your algorithms on an array of problems with varying difficulties.  This year, we also newly include a new category of **multi-label classification through machine learning**.  We hope this event can fuel the continued growth of algorithms in our field as well as lead to new fruitful collaborations.
 
 ## Organizers
-Rina Dechter (University of California Irvine)<br/>
-Alexander Ihler (University of California Irvine)<br/>
-Vibhav Gogate (University of Texax Dallas)<br/>
+Rina Dechter (University of California, Irvine)<br/>
+Alexander Ihler (University of California, Irvine)<br/>
+Vibhav Gogate (University of Texas, Dallas)<br/>
 Junkyu Lee (IBM Research)<br/>
-Bobak Pezeshki (University of California Irvine)<br/>
+Bobak Pezeshki (University of California, Irvine)<br/>
 Contact: `uaicompetition at gmail dot com`
 
