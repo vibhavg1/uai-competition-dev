@@ -11,8 +11,8 @@ For the details, please contact organizers by `uaicompetition at gmail dot com`
   * Call for participations
 * June, 2022
   * Release of sample benchmark sets
-* July, 2022
   * Solver submission opens
+* July, 2022
   * Evaluations begin!
 * August, 2022
   * Mid-competition standings to be reported at UAI-2022
