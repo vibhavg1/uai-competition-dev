@@ -15,7 +15,7 @@ For the details, please contact organizers by `uaicompetition at gmail dot com`
 * July, 2022
   * Evaluations begin!
 * August, 2022
-  * Mid-competition standings to be reported at UAI-2022
+  * Mid-competition update (to be reported at UAI-2022)
 * October, 2022
   * Solver submissions close
   * Final competition results announced!
