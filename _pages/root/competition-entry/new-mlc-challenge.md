@@ -1,21 +1,22 @@
 ---
-title: "New Multi-Label Classification Challenge!"
+title: "New Learned Multi-Label Classification Challenge!"
 usemathjax: true
 permalink: /competition-entry/new-mlc-challenge/
 ---
 
-This year we are excited to include a new **compilation** or **multi-label classification** challenge.<br/>
+This year we are excited to include a new challenge of learning **multi-label classification**.<br/>
 This challenge will have two phases: 
-* an offline learning phase (for which you will use your hardware)
-* an online prediction phase (for which we will use our hardware/setup).
+* an offline learning phase (for which you will use your own hardware)
+* an online prediction phase (for which we will use our hardware).
 
 
 ## Offline Training Phase
 
 For the offline training phase, you will be provided with the following:
-1. several Markov networks in the UAI format
-2. a data generator for each network (python code)
-3. a partition of the set of variables \\(X\\) of each Markov network into three subsets:
+1. several full Markov networks (without evidence) in the UAI format
+2. a data generator for each network (python code) that will:
+  * generate random q 
+4. a partition of the set of variables \\(X\\) of each Markov network into three subsets:
   * hiddenvariables \\(H\\), 
   * observed or evidence variables \\(E\\)
   * query variables \\(Q\\) 
