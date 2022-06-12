@@ -53,6 +53,12 @@ The solution format are as follows depending on the task
 3 2 0 3 1 4 0
 ```
 
-* **Multi label classfication, MLC**: TBD
+* **Multi label classfication, MLC**: A space separated line that includes:
+    * The number _q_ of query variables
+    * the most probable instantiation, a list of variable value pairs for all _q_ variables.
+    * For example, if the solution is an assignment of 0, 1 and 0 to three query variables indexed by 2 3 and 4 respectively, the solution will look as follows
+```
+3 2 0 3 1 4 0
+```
 
 If a solver does not produce a solution by the given time, it would be considered as having failed on the instance.
