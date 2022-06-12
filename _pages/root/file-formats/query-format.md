@@ -3,7 +3,7 @@ title: "File Formats"
 permalink: /file-formats/query-format/
 ---
 
-## Query File Format (only applies to Marginal MAP task)
+## Query File Format (only applies to Marginal MAP and multi-label classification (MLC) tasks)
 Query variables for marginal MAP inference are specified in a separate file. 
 This file has the same name as the original network file but with an added **.query** suffix. 
 For instance with respect to the UAI model format, _problem.uai_ will have evidence in _problem.uai.query_.
