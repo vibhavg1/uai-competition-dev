@@ -13,17 +13,16 @@ This challenge will have two phases:
 ## Offline Training Phase
 
 For the offline training phase, you will be provided with the following:
-1. several full Markov networks (without evidence) in the UAI format
-2. a data generator for each network (python code) that will:
-  * generate random q 
-4. a partition of the set of variables \\(X\\) of each Markov network into three subsets:
+1. Several Markov networks in the UAI format
+2. For each Markov network, a partition of the set of variables \\(X\\) into three subsets:
   * hiddenvariables \\(H\\), 
   * observed or evidence variables \\(E\\)
   * query variables \\(Q\\) 
   * Namely, \\(H \\cup E \\cup Q = X\\), \\(H \\cap E = \\emptyset\\), \\(H \\cap Q = \\emptyset\\), and \\(H \\cap E = \\emptyset\\).
+3. a data generator that takes the Markov network, the partition \\(H,E,Q)\\) and an integer \\(m\\) as input and outputs \\(m\\) examples where each example is an assignment of values to the observed and query variables.
 
 The data generator will generate samples from the probability distribution represented by the
-Markov network. It will take as input (1) a Markov network, (2) number of samples m and (3)
+Markov network M. It will take as input (1) a Markov network, (2) number of samples m and (3)
 path of the file where the m samples will be stored in a comma-separated (csv) format.
 
 The Markov networks, partition of variables into query, hidden and evidence variables for each
