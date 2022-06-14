@@ -18,3 +18,10 @@ if we wanted to use Y as the query variable the file _example.uai.query_ would c
 ```
 1 1
 ```
+
+As a second example, if variables with indices 0, 4, 8 and 17 are query variables, the query file would
+contain the following:
+
+```
+4 0 4 8 17
+```
