@@ -66,11 +66,11 @@ For each assignment \\(q,e\\), the score is given by log10 Pr(q,e) + log10 Z whe
 As mentioned earlier, the data generator will take as input the Markov network, the partition file, an integer m and a location for the output file. After termination, the output file will contain the samples over the evidence and query variables as well as a score for each sample. 
 
 The format of the output file is as follows. Each line in the file will contain an assignment to the evidence and query variables followed by the score for the assignment.  Each space separated line in the file includes:
+
     * the number _q+e_ of query plus the evidence variables
     * the sampled assignment, a list of variable value pairs for all _q+e_ variables.
     * the score of the assignment, a real number
-    * For example, given a Markov network having 10 variables, let the indices of the hidden, evidence and query variables be \\(0,2,3,9)\\), \\(1,4,7\\) and \\(5,6,8\\). Let \\(0,1,1\\) be the sampled assignment to the evidence variables and \\(2,3,1\\) be an assignment to the query variables. Let -2.3 be the score for the assignment, then the sample will be given by the following line
-    
+    * For example, given a Markov network having 10 variables, let the indices of the hidden, evidence and query variables be \\(0,2,3,9)\\), \\(1,4,7\\) and \\(5,6,8\\). Let \\(0,1,1\\) be the sampled assignment to the evidence variables and \\(2,3,1\\) be an assignment to the query variables. Let \\(-2.3\\) be the score for the assignment, then the sample will be given by the following line    
 ```
 6 1 0 4 1 7 1 5 2 6 3 8 1 -2.3
 ```
@@ -81,7 +81,10 @@ Note that you are free to write your own data generator or not use it at all.
 
 You will provide us your compiled/learned models \\(C_k\\) (if any) for
 each Markov network \\(M_k\\) and a program which takes as input (1) your compiled model \\(C_k\\) (if a
-compiled model is not provided, we will assume that \\(C_k = M_k\\)) and (2) a csv file containing test
+compiled model is not provided, we will assume that \\(C_k = M_k\\)) and (2) a test
 dataset D having t examples where each example is an assignment of values to all the evidence
 variables, and outputs the most-probable assignment to all the query variables for each assignment
 (test example) to the evidence variables given in D.
+
+The test data 
+
